@@ -6,7 +6,7 @@
   "description": "Backend API and indexer for iPredict",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:openapi:update": "vitest run src/api/openapi.test.ts -u",
